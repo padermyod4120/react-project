@@ -1,0 +1,26 @@
+label{
+    display: inline-box;
+    margin:  10px 0;
+}
+input{
+    border: 1px solid #0b2545ff;
+    border-radius: 2px;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+
+}
+input:focus{
+    outline: none;
+}
+.btn{
+    background-color:  #3e5c76ff;
+    color: floralwhite;
+    cursor: pointer;
+    display: block;
+    margin: 10px 0 30px;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+}

@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan&display=swap');
+*{
+  box-sizing: border-box;
+  font-family: 'Kodchasan', sans-serif;
+
+}
+
+body{
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  display: flex;
+  flex-direction: coloum;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+.container{
+  margin: 30px auto;
+  width: 350px;
+}
+.horizontal-menu{
+list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #333;
+  text-align: center;
+}
+.horizontal-menu li{
+  display: inline-block;
+}
+.horizontal-menu a{
+  color: white;
+  text-decoration: none;
+  padding: 16px;
+  display: block;
+}
